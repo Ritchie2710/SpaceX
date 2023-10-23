@@ -1,0 +1,76 @@
+#logo img {
+  max-width: 60%;
+  max-height: 30%;
+}
+
+#navItems {
+  display: flex;
+  width: 100%;
+  height: 25px;
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  padding: 8px;
+  color: white;
+  font-family: Helvetica;
+  font-size: 12px;
+  text-decoration: none;
+}
+#menu {
+  display: flex;
+  width: 10px;
+  justify-content: flex-end;
+}
+body {
+  background-image: url(./images/71147204007-nasa-space-x-psyche-falcon-heavy-on-pad-6.webp);
+  /* background-image: url(./images/pic2.jpeg);
+  background-image: url(./images/pic3.jpeg);
+  background-image: url(./images/pic4.jpeg);
+  background-image: url(./images/pic5.jpeg); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+bottom-menu {
+  position: absolute;
+}
+h2 {
+  display: flex;
+  padding: 8px;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  justify-content: left;
+}
+h1 {
+  display: flex;
+  padding: 8px;
+  font-family: Helvetica;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  justify-content: left;
+}
+button {
+  display: flex;
+  color: white;
+  background: none;
+  border: 1px solid white;
+  padding: 1rem 2rem;
+  justify-content: left;
+}
